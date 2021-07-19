@@ -1,0 +1,162 @@
+.div1{
+  width: 100%;
+  height: 100%;
+  /*background-color: #E8FFE8;*/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#EFF9CB), to(#E8FFE8));;
+}
+.background{
+  margin: 0 auto;
+  width:1100px;
+  height:1300px;
+  /*background-color:#D5F3F4;*/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#B8F2F2), to(#E3FDFE));;
+}
+.background2{
+  margin: 0 auto;
+  width:1100px;
+  height:4300px;
+  /*background-color:#D5F3F4;*/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#B8F2F2), to(#E3FDFE));;
+}
+.background3{
+  margin: 0 auto;
+  width:1100px;
+  height:2000px;
+  /*background-color:#D5F3F4;*/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#B8F2F2), to(#E3FDFE));;
+}
+.background .photo{
+  width:400px;
+  height:450px;
+  padding-top: 50px;
+  padding-left: 50px;
+  float:left;
+}
+.background .text{
+  width:auto;
+  height: auto;
+  float: right;
+  margin-top:150px;
+  margin-right: 100px;
+}
+.background .text .info{
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top:10px;
+  font-family: Bahnschrift;
+
+}
+.background .student, .background2 .student,.background3 .student{
+  float: left;
+  font-size: 40px;
+  font-family: "Agency FB";
+  font-weight: bold;
+  /*color: #E8D098;*/
+  /*color: #40A5F6;*/
+  color:#58C16C;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.background .student p,.background2 .student p,.background3 .student p{
+  float: left;
+  font-size: 23px;
+  font-family: Bahnschrift;
+  color: #696969;
+
+}
+.background .text li a{
+  text-decoration:none;
+  color:#333;
+}
+.background .student .line,.background2 .student .line,.background3 .student .line{
+  width: 1000px;
+  height: 10px;
+  /*background: #E8D098;*/
+  /*background: #40A5F6;*/
+  background: #58C16C;
+  border-radius:5px;
+}
+ul.parent li a:hover {
+  color: #56a900;
+}
+ul.parent li a {
+  color: #56a900;
+  font-size: 14px;
+  text-decoration: none;
+}
+.head {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 200px;
+  float: left;
+}
+.nav{
+  float: left;
+  height: 100%;
+
+}
+ul.parent li {
+  display: block;
+  float: left;
+  position: relative;
+  padding: 0px 60px;
+  line-height: 60px;
+}
+
+ul.parent li a {
+  display: block;
+  font-size: 0.92em;
+  color: #696969;
+  font-weight: 600;
+  text-shadow: 0 1px 0 rgba(255,255,255,.86);
+  -o-text-shadow: 0 1px 0 rgba(255,255,255,.86);
+  -ms-text-shadow: 0 1px 0 rgba(255,255,255,.86);
+  -moz-text-shadow: 0 1px 0 rgba(255,255,255,.86);
+  -webkit-text-shadow: 0 1px 0 rgba(255,255,255,.86);
+}
+
+ul.parent li .lines {
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #6bc30d;
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transition: all ease-in-out .6s;
+  -o-transition: all ease-in-out .6s;
+  -ms-transition: all ease-in-out .6s;
+  -moz-transition: all ease-in-out .6s;
+  -webkit-transition: all ease-in-out .6s;
+}
+
+ul.parent li:hover .lines, .head li.current .lines {
+  color: #56a900;
+  width: 100%;
+  left: 0;
+}
+.div1 ul li{
+  display: block;
+}
+.background .student .text2,.background2 .student .text2,.background3 .student .text2{
+  width: 1000px;
+  height: auto;
+}
+.background .student h,.background2 .student h,.background3 .student h{
+  font-size: 36px;
+  font-weight: lighter;
+  /*color: #E8D098;*/
+  color: #58C16C;
+  padding-bottom: 0;
+}
+.background .student p2,.background2 .student p2,.background3 .student p2{
+  font-size: 30px;
+  font-weight: lighter;
+  /*color: #E8D098;*/
+  color: #58C16C;
+  padding-top: 0;
+}
+.background2 .student .photo2{
+
+}
+
