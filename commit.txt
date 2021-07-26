@@ -1,0 +1,16 @@
+  210  git ls-tree
+  211  git cat-file
+  212  git ls-tree test1
+  213  git cat-file test1
+  214  git cat-tree -p
+  215  git cat-file -p
+  216  git cat-test1 -p
+  217  cd 10.0.0.0
+  218  cd Users/zhengsmacbook/Desktop/LearnGit
+  219  cd /Users/zhengsmacbook/Desktop/LearnGit 
+  220  git checkout
+  221  git checkout master
+  222  git add -A
+  223  git commit -m "I don't konw what will happen"
+  224  git push origin master
+  225  git push origin paragraph1
