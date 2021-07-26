@@ -1,2 +1,4 @@
 Hello,everyone
-My name is Miao Zheng
+My name is Hao Gao
+Give me a reason why I can not have a merge conflict problem!!
+This is my first time to solve the merge conflict problems.
